@@ -1,0 +1,182 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  margin: 100px;
+}
+
+p {
+  padding-left: 30px;
+  font-family: sans-serif;
+}
+
+.content h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.content h3 {
+  font-family: sans-serif;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.content h4 {
+  width: 150px;
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  object-position: bottom;
+  align-items: center;
+  height: 50px;
+  background-color: rgba(0, 8, 10, 0.53);
+}
+
+.mail {
+  width: 20px;
+  height: auto;
+  margin-left: 1000px;
+}
+
+.party {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  background: rgba(0, 0, 0, 0.91);
+  color: #939191;
+  border-radius: 15px;
+}
+
+.logo {
+  width: 200px;
+}
+
+table.table {
+  border: 2px solid;
+  margin-top: 10px;
+}
+
+.tableinfo {
+  width: auto;
+  margin: 100px;
+}
+
+#dropstate {
+  width: 75px;
+  height: 25px;
+}
+
+.party p {
+  font-size: 17px;
+}
+
+.text {
+  width: 600px;
+}
+
+.logoh {
+  width: 300px;
+  margin-left: 750px;
+  margin-top: -300px;
+}
+
+.logos {
+  width: 300px;
+  margin-left: 750px;
+  margin-top: -250px;
+}
+
+th {
+  width: auto;
+}
+
+.tablenumrep {
+  font-family: sans-serif;
+  border-collapse: separate;
+  width: 325px;
+  height: 245px;
+  margin-top: 15px;
+}
+
+.tablenumrep p {
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.tablenumrep th {
+  font-size: 15px;
+  text-align: center;
+  border: 2px solid black;
+  border-collapse: separate;
+  background: rgba(98, 98, 98, 0.53);
+}
+
+.tablenumrep td {
+  width: 100px;
+  border: 2px solid black;
+  border-collapse: separate;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.tablesdown {
+  width: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.attleasteng th {
+  width: auto;
+  text-align: center;
+  font-size: 15px;
+  background: rgba(98, 98, 98, 0.53);
+}
+
+.attmosteng th {
+  width: auto;
+  text-align: center;
+  font-size: 15px;
+  background: rgba(98, 98, 98, 0.53);
+}
+
+hr {
+  width: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.attleasteng p {
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.attmosteng p {
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 20px;
+}

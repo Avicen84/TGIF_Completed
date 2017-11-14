@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Senate Attendance</title>
+
+
+  <link rel="stylesheet" href="styles/tgif.css" style="text/css">
+</head>
+
+<body>
+  <div class="header">
+    <img class="logo" src="styles/Images/TGIF.jpg">
+    <img class="mail" src="styles/Images/email.png">
+    <a href="mailto:info@tgif.net"> info@tgif.net</a>
+  </div>
+  <div id="header">
+    <nav class="navbar navbar-default navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Congress 113<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="house.html">House</a></li>
+                <li><a href="senate.html">Senate</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Attendance<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="attendance_house.html">House</a></li>
+                <li><a href="Attendance_senate.html">Senate</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Party Loyalty<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="loyalty_house.html">House</a></li>
+                <li><a href="loyalty_senate.html">Senate</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </nav>
+  </div>
+  <div>
+    <div class="content">
+      <div class="text">
+        <h2>Attendance</h2>
+        <p>The Constitution specifies that a majority of members constitutes a quorum to do business in each house. Representatives and senators rarely force the presence of a quorum by demanding quorum calls; thus, in most cases, debates continue even if a majority is not present.</p>
+
+        <p>The Senate uses roll-call votes; a clerk calls out the names of all the senators, each senator stating "aye" or "no" when his or her name is announced. The House reserves roll-call votes for the most formal matters, as a roll-call of all 435 representatives takes quite some time; normally, members vote by electronic device. In the case of a tie, the motion in question fails. In the Senate, the Vice President may (if present) cast the tiebreaking vote.</p>
+      </div>
+      <div class="tablenumrep">
+        <p>Senate at glance</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Party</th>
+              <th>No. of Reps</th>
+              <th>% Voted w/ Party</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Democrats</td>
+              <td id="demNum"></td>
+              <td id="demVotes"></td>
+            </tr>
+            <tr>
+              <td>Republicans</td>
+              <td id="repNum"></td>
+              <td id="repVotes"></td>
+            </tr>
+            <tr>
+              <td>Independents</td>
+              <td id="indNum"></td>
+              <td id="indVotes"></td>
+            </tr>
+            <tr>
+              <td>Total</td>
+              <td id="totalReprs"></td>
+              <td id="totalVotes"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="tablesdown">
+      <div class="attleasteng">
+        <p>Least Engaged (Bottom 10% Attendance)</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>No. Missed Votes</th>
+              <th>% Missed</th>
+            </tr>
+          </thead>
+          <tbody id="table1">
+          </tbody>
+        </table>
+      </div>
+      <div class="attmosteng">
+        <p>Most Engaged (Top 10% Attendance)</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>No. Missed Votes</th>
+              <th>% Missed</th>
+            </tr>
+          </thead>
+          <tbody id="table2">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <p>© 2016 TGIF | All Rights Reserved</p>
+  </div>
+
+  <!-- TODO recorda a l'Ignasi que expliqui pq això no és del tot correcte -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <!--      <script src="senate_data.js"></script>-->
+  <script src="tgif2.js"></script>
+  <!-- <script src="controller.js"></script>-->
+</body>
+
+</html>
